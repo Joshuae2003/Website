@@ -1,0 +1,69 @@
+.background{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_button {
+  position: absolute;
+  width: 25%;
+  height: 45%;
+  left: 37%;
+  top: 25%;
+  cursor: pointer;
+  transition: 1s;
+}
+.main_button:hover{
+  transform: scale(1.25);
+}
+.main_button:active{
+  transition: 0.5s;
+  transform: scale(1);
+}
+.punch_counter_title{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  background-color: black;
+}
+.punch_counter{
+  top: 10%;
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  left: 37%;
+  color: white;
+  font-size: 21px;
+  text-align: center;
+}
+.upgrade_menu{
+  display: grid;
+  position: absolute;
+  right: 0%;
+  width: 18%;
+  height: 97.3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.upgrade_menu > button{
+  padding: 20px 0;
+  font-size: 30px;
+  color: white;
+  font-size: 21px;
+  background-color: rgb(208, 157, 80);
+  border: 0;
+  border-radius: 0px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(179, 112, 11);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.upgrade_menu > button:hover{
+  background-color: rgb(179, 112, 11);
+}
